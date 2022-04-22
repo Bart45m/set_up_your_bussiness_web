@@ -1,3 +1,31 @@
+# SetUpYourBussiness
+
+Web app for searching bussiness partners
+
+# ATTENTION!
+
+Current version isn't done yet, in the future app will be finished and there will be applied some corrections:  
+
+# Functional requirements:
+
+1. Registration with account type selection(person or institution) 
+2. Edition account data
+3. Searching other users by filters such as: skills, competentions, rating or connection by contacts
+4. Overview detail information about other users
+5. Adding users to contacts, blocking and unblocking, deleting from contacts
+6. Chat with users in contacts 
+7. Rating users
+8. Adding announcements
+9. Replying to announcements (adding your account on list of interested users)
+10. Searching announcements by filters
+11. Overview users interested in announcement (by it's author)
+
+# Unfunctional requirements:
+
+1. No chat options with blocked user
+2. No chat options with user out of the contacts
+3. Data validation in register, login and creating of announcement
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

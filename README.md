@@ -26,6 +26,10 @@ Current version isn't done yet, in the future app will be finished and there wil
 2. No chat options with user out of the contacts
 3. Data validation in register, login and creating of announcement
 
+# Additional files
+
+- SetUpYourBussiness.fig - templates figma file
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

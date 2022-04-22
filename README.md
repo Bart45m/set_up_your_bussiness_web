@@ -6,6 +6,10 @@ Web app for searching bussiness partners
 
 Current version isn't done yet, in the future app will be finished and there will be applied some corrections:  
 
+# Used technologies:
+- React.js with react-redux, react-redux-persist
+- Firebase: Firestore, Authentication(email and password)
+
 # Functional requirements:
 
 1. Registration with account type selection(person or institution) 

@@ -1,0 +1,108 @@
+
+
+#searching-users-page-header-container{
+    grid-column: 1;
+}
+
+#searching-users-page-container{
+    grid-template-columns: auto;
+}
+
+#searching-users-page-list-view-container{
+    overflow-y: scroll;
+}
+
+#searching-users-page-list-view-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.list-item-container{
+    display: grid;
+    background-color: white;
+    padding: 1%;
+    border-radius: 1vw;
+}
+
+.list-item-background{
+    background-color: blue;
+    padding: 0.25%;
+    margin: 0.25%;
+    border-radius: 1vw
+}
+
+.list-item-image{
+    grid-column: 1;
+    grid-row: 1 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.list-item-image > img{
+    width: 80%;
+}
+
+.list-item-header{
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.list-item-corner{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.list-item-first-row{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.list-item-second-row{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+.value-label{
+
+}
+
+.value{
+    color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (orientation: landscape) {
+
+    #searching-users-page-container{
+        width: 70vw;
+        max-height: 90vh;
+    }
+
+    .list-item-image{
+        width: 20vh;
+    }
+
+    .list-item-corner{
+        margin: 0 0 0 auto;
+    }
+
+    .page-list-view-container{
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+@media (orientation: portrait) {
+
+    .list-item-image{
+        width: 15vw;
+    }
+
+    .list-item-corner{
+        margin: 0 0 0 auto;
+    }
+}

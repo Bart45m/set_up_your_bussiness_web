@@ -1,0 +1,12 @@
+#searching-bar {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 80% 10% 10%;
+}
+
+.searching-bar-buttons{
+    padding: 18.5%; 
+    margin: 7.5%;
+    background-color: rgb(100, 99, 99);
+    color: black;
+}

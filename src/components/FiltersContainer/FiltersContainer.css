@@ -1,0 +1,13 @@
+#filters-container{
+    background-color: #BCC6FD;
+    height: fit-content;
+    border-radius: 0.5vw;
+    padding: 0.50%;
+}
+
+.filter-item{
+    padding: 0.5%;
+    background-color: #7084EC;
+    color: #0C2463;
+    margin: 0.5%;
+}
